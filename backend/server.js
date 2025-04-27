@@ -5,6 +5,7 @@ const cors = require('cors');
 const axios = require('axios'); // ✅ ใช้ axios สำหรับ fetch ข่าว
 const ITStaff = require('./models/ITStaff');
 const Ticket = require('./models/Ticket'); // เพิ่มบรรทัดนี้เพื่อ import Ticket model
+const User = require('./models/User'); // Uncomment this line
 const authRoutes = require('./routes/auth');
 const dotenv = require('dotenv');
 const app = express();
